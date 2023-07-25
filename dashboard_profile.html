@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+  <title>Land Mart - Real Estate HTML Template</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/spacing.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/select2.min.css">
+  <link rel="stylesheet" href="css/add_row_custon.css">
+  <link rel="stylesheet" href="css/summernote.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- <link rel="stylesheet" href="css/rtl.css"> -->
+</head>
+
+<body>
+
+
+  <!--============================
+    DASHBOARD PAGE START
+  ==============================-->
+  <section class="wsus__dashboard">
+    <div class="container-fluid">
+      <span class="wsus__menu_icon"><i class="fas fa-bars"></i></span>
+      <div class="wsus__dashboard_side_bar">
+        <span class="wsus__close_icon"><i class="fas fa-times"></i></span>
+        <a class="wsus__dashboard_logo" href="index.html">
+          <img src="images/logo_top.jpg" alt="logo" class="img-fluid">
+        </a>
+        <div class="wsus__agent_img">
+          <img src="images/team_3.jpg" alt="agent" class="img-fluid">
+          <h5>Smith jhon</h5>
+        </div>
+        <ul class="wsus__deshboard_menu">
+          <li><a href="dashboard.html"><i class="fas fa-location-circle"></i> Dashboard</a></li>
+          <li><a href="dashboard_property.html"><i class="far fa-list"></i> my properties</a></li>
+          <li><a class="dash_active" href="dashboard_profile.html"><i class="fas fa-user-tie"></i> profile</a></li>
+          <li><a href="dashboard_order.html"><i class="fas fa-cart-plus"></i> order</a></li>
+          <li><a href="dashboard_wishlist.html"><i class="fas fa-heart"></i> wishlist</a></li>
+          <li><a href="dashboard_pricing.html"><i class="fas fa-badge-dollar"></i> pricing plan</a></li>
+          <li><a href="dashboard_review.html"><i class="fas fa-star"></i> my reviews</a></li>
+          <li><a href="dashboard_clients_review.html"><i class="fas fa-star"></i> client reviews</a></li>
+          <li><a href="#"><i class="fas fa-unlock-alt"></i> log out</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-xl-9 ms-auto">
+          <div class="wsus__dashboard_main_content">
+            <div class="wsus__my_profile">
+              <h4 class="heading">my profile</h4>
+              <div class="wsus__dash_info">
+                <div class="row">
+                  <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="wsus__dash_info_img">
+                      <img src="images/team_3.jpg" alt="my images" class="img-fluid w-100">
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-sm-6 col-lg-8">
+                    <div class="wsus__dash_info_text">
+                      <h3>David Simmons</h3>
+                      <a href="callto:+8801705269875"><i class="fas fa-phone-alt"></i> +968-112-223-443</a>
+                      <a href="mailto:agent@gmail.com"><i class="fas fa-envelope-open"></i> agent@gmail.com</a>
+                      <p><i class="fas fa-globe"></i> https://test.com/</p>
+                      <p><i class="fas fa-location-circle"></i> Tezpur, Queensland, Australia</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wsus__dash_info wsus__my_profile_text p_25 mt_25">
+                <form>
+                  <div class="row">
+                    <div class="col-xl-6 col-md-6">
+                      <input type="text" placeholder="Name">
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                      <input type="email" placeholder="Email">
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                      <input type="text" placeholder="Phone">
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                      <input type="text" placeholder="Website">
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                      <input type="text" placeholder="Address">
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                      <input class="file" type="file">
+                    </div>
+                    <div class="col-xl-12">
+                      <div id="medicine_row3">
+                        <div class="row">
+                          <div class="col-xl-5 col-md-5">
+                            <div class="medicine_row_input">
+                              <input type="text" name="name[]" id="name">
+                            </div>
+                          </div>
+                          <div class="col-xl-5 col-md-5">
+                            <div class="medicine_row_input">
+                              <input type="text" name="name[]" id="name2">
+                            </div>
+                          </div>
+                          <div class="col-xl-2 col-md-2">
+                            <div class="medicine_row_input">
+                              <button type="button" id="add_row3"><i class="fas fa-plus"
+                                  aria-hidden="true"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <textarea class="form-control summer_note"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="common_btn">update</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="row">
+                <div class="col-xl-6">
+                  <div class="wsus__dash_info p_25 mt_25">
+                    <form class="wsus__dash_change_pass">
+                      <div class="row">
+                        <div class="col-12 col-md-6 col-xl-12">
+                          <label>Old Password</label>
+                          <input type="password" placeholder="Old Password">
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-12">
+                          <label>new Password</label>
+                          <input type="password" placeholder="New Password">
+                        </div>
+                        <div class="col-12">
+                          <label>confirm Password</label>
+                          <input type="password" placeholder="Confirm Password">
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="common_btn">change password</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-xl-6">
+                  <div class="wsus__dash_info wsus__dash_banner_img p_25 mt_25">
+                    <h5 class="sub_heading">Existing Banner Image</h5>
+                    <div class="wsus__dash_banner_main">
+                      <img src="images/new_properties_4.jpg" alt="banner img" class="img-fluid w-100">
+                    </div>
+                    <label>new images</label>
+                    <input type="file">
+                    <button type="submit" class="common_btn">upload</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============================
+    DASHBOARD PART END
+  ==============================-->
+
+
+  <!--=====SCROLL BUTTON START=====-->
+  <div class="wsus__scroll_btn">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+  <!--=====SCROLL BUTTON END=====-->
+
+
+  <!--jquery library js-->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <!--bootstrap js-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!--font-awesome js-->
+  <script src="js/Font-Awesome.js"></script>
+  <!--slick js-->
+  <script src="js/slick.min.js"></script>
+  <!--select-2 js-->
+  <script src="js/select2.min.js"></script>
+  <!--counter-2 js-->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.countup.min.js"></script>
+  <!--add row custon js-->
+  <script src="js/add_row_custon.js"></script>
+  <!--sticky sidebar js-->
+  <script src="js/sticky_sidebar.js"></script>
+  <!--summer note js-->
+  <script src="js/summernote.min.js"></script>
+
+  <!--main/custom js-->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+  <title>Land Mart - Real Estate HTML Template</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/spacing.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/select2.min.css">
+  <link rel="stylesheet" href="css/add_row_custon.css">
+  <link rel="stylesheet" href="css/summernote.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- <link rel="stylesheet" href="css/rtl.css"> -->
+</head>
+
+<body>
+
+  <!--============================
+    DASHBOARD PAGE START
+  ==============================-->
+  <section class="wsus__dashboard">
+    <div class="container-fluid">
+      <span class="wsus__menu_icon"><i class="fas fa-bars"></i></span>
+      <div class="wsus__dashboard_side_bar">
+        <span class="wsus__close_icon"><i class="fas fa-times"></i></span>
+        <a class="wsus__dashboard_logo" href="index.html">
+          <img src="images/logo_top.jpg" alt="logo" class="img-fluid">
+        </a>
+        <div class="wsus__agent_img">
+          <img src="images/team_3.jpg" alt="agent" class="img-fluid">
+          <h5>Smith jhon</h5>
+        </div>
+        <ul class="wsus__deshboard_menu">
+          <li><a href="dashboard.html"><i class="fas fa-location-circle"></i> Dashboard</a></li>
+          <li><a class="dash_active" href="dashboard_property.html"><i class="far fa-list"></i> my properties</a></li>
+          <li><a href="dashboard_profile.html"><i class="fas fa-user-tie"></i> profile</a></li>
+          <li><a href="dashboard_order.html"><i class="fas fa-cart-plus"></i> order</a></li>
+          <li><a href="dashboard_wishlist.html"><i class="fas fa-heart"></i> wishlist</a></li>
+          <li><a href="dashboard_pricing.html"><i class="fas fa-badge-dollar"></i> pricing plan</a></li>
+          <li><a href="dashboard_review.html"><i class="fas fa-star"></i> my reviews</a></li>
+          <li><a href="dashboard_clients_review.html"><i class="fas fa-star"></i> client reviews</a></li>
+          <li><a href="#"><i class="fas fa-unlock-alt"></i> log out</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-xl-9 ms-auto">
+          <div class="wsus__dashboard_main_content">
+            <div class="wsus__add_property">
+              <h4 class="heading">add property <a href="dashboard_property.html" class="common_btn"><i
+                    class="fal fa-plus-octagon"></i> all property</a></h4>
+              <div class="wsus__dash_info p_25 pb_0">
+                <div class="row">
+                  <h5 class="sub_heading">basic information</h5>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>title</label>
+                      <input type="text" placeholder="Title">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>slug</label>
+                      <input type="text" placeholder="Slug">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Property Types</label>
+                      <select class="select_2" name="state">
+                        <option value="AL">select Types</option>
+                        <option value="">Property 1</option>
+                        <option value="">Property 2</option>
+                        <option value="">Property 3</option>
+                        <option value="">Property 4</option>
+                        <option value="">Property 5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>City</label>
+                      <select class="select_2" name="state">
+                        <option value="AL">select city</option>
+                        <option value="">city 1</option>
+                        <option value="">city 2</option>
+                        <option value="">city 3</option>
+                        <option value="">city 4</option>
+                        <option value="">city 5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>address</label>
+                      <input type="text" placeholder="Address">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>phone</label>
+                      <input type="text" placeholder="Phone">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>email</label>
+                      <input type="email" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>website</label>
+                      <input type="text" placeholder="www.example.com">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Purpose</label>
+                      <select class="select_2" name="state">
+                        <option value="AL">select Purpose </option>
+                        <option value="">Purpose 1</option>
+                        <option value="">Purpose 2</option>
+                        <option value="">Purpose 3</option>
+                        <option value="">Purpose 4</option>
+                        <option value="">Purpose 5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>price</label>
+                      <select class="select_2" name="state">
+                        <option value="AL">select price </option>
+                        <option value="">price 1</option>
+                        <option value="">price 2</option>
+                        <option value="">price 3</option>
+                        <option value="">price 4</option>
+                        <option value="">price 5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>price</label>
+                      <input type="text" placeholder="Price">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wsus__dash_info p_25 mt_25 pb_0">
+                <div class="row">
+                  <h5 class="sub_heading">others information</h5>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Total Area(Square Feet)</label>
+                      <input type="text" placeholder="44">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Total Unit</label>
+                      <input type="text" placeholder="45">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Total Room </label>
+                      <input type="text" placeholder="48">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Total Bedroom </label>
+                      <input type="text" placeholder="10">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Total Bathroom </label>
+                      <input type="text" placeholder="42">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Total Floor</label>
+                      <input type="text" placeholder="71">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Total Kitchen</label>
+                      <input type="text" placeholder="29">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Total Parking Place </label>
+                      <input type="text" placeholder="120">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wsus__dash_info p_25 mt_25 pb_0">
+                <div class="row">
+                  <h5 class="sub_heading">Image, PDF and Video</h5>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>PDF File</label>
+                      <input type="file">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Bannner Image</label>
+                      <input type="file">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Thumbnail Image</label>
+                      <input type="file">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Youtube Video Link</label>
+                      <input type="text" placeholder="Link">
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>image</label>
+                      <input type="file">
+                    </div>
+                  </div>
+                  <div class="col-xl-12">
+                    <div class="wsus__property_input xs_mb_0">
+                      <div id="medicine_row3">
+                        <div class="row">
+                          <div class="col-xl-5 col-md-5">
+                            <div class="medicine_row_input">
+                              <input type="text" name="name[]" id="name2">
+                            </div>
+                          </div>
+                          <div class="col-xl-5 col-md-5">
+                            <div class="medicine_row_input">
+                              <input type="text" name="name[]" id="name">
+                            </div>
+                          </div>
+                          <div class="col-xl-2 col-md-2">
+                            <div class="medicine_row_input">
+                              <button type="button" id="add_row3"><i class="fas fa-plus"
+                                  aria-hidden="true"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wsus__dash_info dash_aminities p_25 mt_25 pb_0">
+                <h5 class="sub_heading">Aminities</h5>
+                <div class="row">
+                  <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Air Condition
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                      <label class="form-check-label" for="flexCheckDefault1">
+                        Alcohol
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label" for="flexCheckDefault2">
+                        Balcony
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                      <label class="form-check-label" for="flexCheckDefault4">
+                        Bike Parking
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                      <label class="form-check-label" for="flexCheckDefault6">
+                        Cable Tv
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                      <label class="form-check-label" for="flexCheckDefault5">
+                        Elevator in building
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+                      <label class="form-check-label" for="flexCheckDefault7">
+                        Free coffee and tea
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                      <label class="form-check-label" for="flexCheckDefault8">
+                        Good for kids
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+                      <label class="form-check-label" for="flexCheckDefault9">
+                        Reservations
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wsus__dash_info nearest_location p_25 mt_25">
+                <h5 class="sub_heading">Nearest Locations</h5>
+                <div class="row">
+                  <div class="col-xl-5 col-md-5">
+                    <label>Nearest Locations</label>
+                    <select class="select_2" name="state">
+                      <option value="AL">select price </option>
+                      <option value="">price 1</option>
+                      <option value="">price 2</option>
+                      <option value="">price 3</option>
+                      <option value="">price 4</option>
+                      <option value="">price 5</option>
+                    </select>
+                  </div>
+                  <div class="col-xl-5 col-md-5">
+                    <label>Distance(km)</label>
+                    <input type="text" placeholder="Distance(km)">
+                  </div>
+                  <div class="col-xl-2 col-md-2">
+                    <button class="common_btn mt_30">add new</button>
+                  </div>
+                </div>
+              </div>
+              <div class="wsus__dash_info pro_det_map p_25 mt_25 pb_0">
+                <h5 class="sub_heading">Property Details and Google Map </h5>
+                <div class="wsus__property_input">
+                  <label>Google Map Code</label>
+                  <textarea cols="3" rows="3" placeholder="Google Map Code"></textarea>
+                </div>
+                <div class="wsus__property_inpuT">
+                  <label>Description </label>
+                  <textarea class="form-control summer_note"></textarea>
+                </div>
+              </div>
+              <div class="wsus__dash_info featured p_25 mt_25">
+                <div class="row">
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>featured</label>
+                      <select class="select_2" name="state">
+                        <option value="AL">yes</option>
+                        <option value="">no</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Top Property</label>
+                      <select class="select_2" name="state">
+                        <option value="AL">yes</option>
+                        <option value="">no</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>Urgent Property</label>
+                      <select class="select_2" name="state">
+                        <option value="AL">yes</option>
+                        <option value="">no</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-6">
+                    <div class="wsus__property_input">
+                      <label>SEO Title</label>
+                      <input type="text" placeholder="SEO Title">
+                    </div>
+                  </div>
+                  <div class="col-xl-12">
+                    <div class="wsus__property_input">
+                      <label>SEO Description</label>
+                      <textarea cols="3" rows="3" placeholder="SEO Description"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="common_btn">save</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============================
+    DASHBOARD PART END
+  ==============================-->
+
+
+  <!--=====SCROLL BUTTON START=====-->
+  <div class="wsus__scroll_btn">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+  <!--=====SCROLL BUTTON END=====-->
+
+
+  <!--jquery library js-->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <!--bootstrap js-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!--font-awesome js-->
+  <script src="js/Font-Awesome.js"></script>
+  <!--slick js-->
+  <script src="js/slick.min.js"></script>
+  <!--select-2 js-->
+  <script src="js/select2.min.js"></script>
+  <!--counter-2 js-->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.countup.min.js"></script>
+  <!--add row custon js-->
+  <script src="js/add_row_custon.js"></script>
+  <!--sticky sidebar js-->
+  <script src="js/sticky_sidebar.js"></script>
+  <!--summer note js-->
+  <script src="js/summernote.min.js"></script>
+
+  <!--main/custom js-->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
