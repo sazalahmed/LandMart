@@ -22,57 +22,136 @@
 
 <body>
 
+  <!--=====MAIN MENU START=====-->
+  <nav class="navbar navbar-expand-lg main_menu">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="logo" class="img-fluid w-100">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fal fa-align-right"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about_us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="property.html">Properties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing Plan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="property_details.html">property details</a></li>
+              <li><a class="dropdown-item" href="agent.html">agent</a></li>
+              <li><a class="dropdown-item" href="agent_profile.html">agent profile</a></li>
+              <li><a class="dropdown-item" href="blog_details.html">blog details</a></li>
+              <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+              <li><a class="dropdown-item" href="checkout.html">check out</a></li>
+              <li><a class="dropdown-item" href="privacy.html">Privacy</a></li>
+              <li><a class="dropdown-item" href="custome_page.html">custome page</a></li>
+              <li><a class="dropdown-item" href="404.html">404</a></li>
+              <li><a class="dropdown-item" href="login.html">sign in</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_us.html">Contact</a>
+          </li>
+        </ul>
+        <ul class="login_icon ms-auto">
+          <li><a href="#"><i class="far fa-plus"></i> add property</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--=====MAIN MENU END=====-->
+
+
+  <!--===BREADCRUMB PART START====-->
+  <section class="wsus__breadcrumb" style="background: url(images/breadcrumb_img.jpg);">
+    <div class="wsus_bread_overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h4>Dashboard</h4>
+            <nav style="--bs-breadcrumb-divider: '-';" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--===BREADCRUMB PART END====-->
+
+
   <!--============================
     DASHBOARD PAGE START
   ==============================-->
-  <section class="wsus__dashboard">
-    <div class="container-fluid">
-      <span class="wsus__menu_icon"><i class="fas fa-bars"></i></span>
-      <div class="wsus__dashboard_side_bar">
-        <span class="wsus__close_icon"><i class="fas fa-times"></i></span>
-        <a class="wsus__dashboard_logo" href="index.html">
-          <img src="images/logo.png" alt="logo" class="img-fluid">
-        </a>
-        <div class="wsus__agent_img">
-          <img src="images/team_3.jpg" alt="agent" class="img-fluid">
-          <h5>Smith jhon</h5>
-        </div>
-        <ul class="wsus__deshboard_menu">
-          <li><a class="dash_active" href="dashboard.html"><i class="fas fa-location-circle"></i> Dashboard</a></li>
-          <li><a href="dashboard_property.html"><i class="far fa-list"></i> my properties</a></li>
-          <li><a href="dashboard_profile.html"><i class="fas fa-user-tie"></i> profile</a></li>
-          <li><a href="dashboard_order.html"><i class="fas fa-cart-plus"></i> order</a></li>
-          <li><a href="dashboard_wishlist.html"><i class="fas fa-heart"></i> wishlist</a></li>
-          <li><a href="dashboard_pricing.html"><i class="fas fa-badge-dollar"></i> pricing plan</a></li>
-          <li><a href="dashboard_review.html"><i class="fas fa-star"></i> my reviews</a></li>
-          <li><a href="dashboard_clients_review.html"><i class="fas fa-star"></i> client reviews</a></li>
-          <li><a href="#"><i class="fas fa-unlock-alt"></i> log out</a></li>
-        </ul>
-      </div>
+  <section class="wsus__dashboard pt_100 xs_pt_70 pb_100 xs_pb_70">
+    <div class="container">
 
       <div class="row">
-        <div class="col-12 col-xl-9 ms-auto">
+        <div class="col-xl-3">
+          <span class="wsus__menu_icon"><i class="fas fa-bars"></i></span>
+          <div class="wsus__dashboard_side_bar">
+            <span class="wsus__close_icon"><i class="fas fa-times"></i></span>
+            <div class="wsus__agent_img">
+              <img src="images/team_3.jpg" alt="agent" class="img-fluid">
+              <h5>Smith jhon</h5>
+            </div>
+            <ul class="wsus__deshboard_menu">
+              <li><a class="dash_active" href="dashboard.html"><i class="fas fa-location-circle"></i> Dashboard</a></li>
+              <li><a href="dashboard_property.html"><i class="far fa-list"></i> my properties</a></li>
+              <li><a href="dashboard_profile.html"><i class="fas fa-user-tie"></i> profile</a></li>
+              <li><a href="dashboard_order.html"><i class="fas fa-cart-plus"></i> order</a></li>
+              <li><a href="dashboard_wishlist.html"><i class="fas fa-heart"></i> wishlist</a></li>
+              <li><a href="dashboard_pricing.html"><i class="fas fa-badge-dollar"></i> pricing plan</a></li>
+              <li><a href="dashboard_review.html"><i class="fas fa-star"></i> my reviews</a></li>
+              <li><a href="dashboard_clients_review.html"><i class="fas fa-star"></i> client reviews</a></li>
+              <li><a href="#"><i class="fas fa-unlock-alt"></i> log out</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-xl-9">
           <div class="wsus__dashboard_main_content">
             <div class="wsus__manage_dashboard">
               <h4 class="heading">Dashboard</h4>
               <div class="row">
                 <div class="col-xl-4 col-sm-6 col-md-4">
                   <div class="wsus__manage_single">
-                    <i class="far fa-list"></i>
+                    <i class="far fa-building"></i>
                     <span>345</span>
                     <p>Published Property</p>
                   </div>
                 </div>
                 <div class="col-xl-4 col-sm-6 col-md-4">
                   <div class="wsus__manage_single green">
-                    <i class="fab fa-buromobelexperte"></i>
+                    <i class="far fa-building"></i>
                     <span>10</span>
                     <p>Expired Property</p>
                   </div>
                 </div>
                 <div class="col-xl-4 col-sm-6 col-md-4">
                   <div class="wsus__manage_single sky">
-                    <i class="far fa-list"></i>
+                    <i class="fas fa-star"></i>
                     <span>21</span>
                     <p>My Reviews</p>
                   </div>
@@ -86,14 +165,14 @@
                 </div>
                 <div class="col-xl-4 col-sm-6 col-md-4">
                   <div class="wsus__manage_single orange">
-                    <i class="far fa-list"></i>
+                    <i class="fas fa-star"></i>
                     <span>05</span>
                     <p>Client Reviews</p>
                   </div>
                 </div>
                 <div class="col-xl-4 col-sm-6 col-md-4">
                   <div class="wsus__manage_single purple">
-                    <i class="far fa-list"></i>
+                    <i class="fas fa-heart"></i>
                     <span>45</span>
                     <p>Wishlists</p>
                   </div>
@@ -171,6 +250,88 @@
   <!--============================
     DASHBOARD PART END
   ==============================-->
+
+
+  <!--=====FOOTER START=====-->
+  <footer style="background: url(images/footer_bg.jpg);">
+    <div class="wsus__footer_overlay pt_100 xs_pt_75">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xl-3 col-sm-8 col-md-7 col-lg-4">
+            <div class="wsus__footer_content">
+              <a href="#" class="footer_logo">
+                <img src="images/logo.png" alt="Land Mart" class="img-fluid w-100">
+              </a>
+              <p class="footer_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestias
+                tempore, ea perferendis odio architecto repellat. Quos quod temporibus, eius modi eum inventore incidunt
+                .</p>
+              <ul class="footer_icon d-flex flex-wrap">
+                <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="behance" href="#"><i class="fab fa-behance"></i></a></li>
+                <li><a class="google" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4 col-lg-2">
+            <div class="wsus__footer_content">
+              <h4>short link</h4>
+              <ul class="footer_link">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">All Properties</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pricing Plan</a></li>
+                <li><a href="#">team</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4 col-lg-2 order-md-4">
+            <div class="wsus__footer_content">
+              <h4>Help Link</h4>
+              <ul class="footer_link">
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">instagram</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-7 col-md-7 col-lg-3 order-lg-4">
+            <div class="wsus__footer_content">
+              <h4 class="mb_40">Contact</h4>
+              <p class="address"><i class="far fa-map-marker-alt"></i> San Francisco City Hall, San Francisco, CA</p>
+              <p class="address"><i class="fal fa-phone-alt"></i>
+                <span>+8801587268542</span>
+                <span>+8801587268542</span>
+              </p>
+              <p class="address"><i class="fal fa-envelope-open"></i>
+                <span>example@gmail.com</span>
+                <span>example@gmail.com</span>
+              </p>
+              <!-- <h4 class="mt_30 mb-3">subscribe</h4>
+                <form>
+                  <input type="text" placeholder="Email">
+                  <button class="common_btn" type="submit">subscribe
+                  </button>
+                </form> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wsus__copyright mt_100 xs_mt_5">
+        <div class="ontainer">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p>Copyright 2022 <a href="#">Land Mart</a>. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--=====FOOTER END=====-->
 
 
   <!--=====SCROLL BUTTON START=====-->
