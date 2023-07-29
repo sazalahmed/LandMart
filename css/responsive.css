@@ -4,16 +4,8 @@
 @media (min-width: 1200px) and (max-width: 1399.99px) {
 
     /* home page start */
-    .wsus__about_img {
-        height: 560px;
-    }
-
     .wsus__single_property_img {
         height: 210px;
-    }
-
-    .wsus__popular_properties_single {
-        height: 230px;
     }
 
     .wsus__blog_img {
@@ -22,6 +14,27 @@
 
     .wsus__top_properties_img {
         height: 130px;
+    }
+
+    .wsus__about_img .img2 {
+        right: -80px;
+    }
+
+    .wsus__popular_properties_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .wsus__popular_property_text {
+        width: 63%;
+    }
+
+    .wsus__popular_property_text .title {
+        font-size: 18px;
+    }
+
+    .wsus__popular_property_text ul li {
+        font-size: 10px;
     }
 
     /* home page end */
@@ -36,21 +49,12 @@
         font-size: 26px;
     }
 
-    .wsus__404_text {
-        margin-top: 70px;
-        margin-bottom: 110px;
-    }
-
     /* 404 end */
 
 
     /* about page start */
     .wsus__about_page .wsus__about_img {
         height: 685px;
-    }
-
-    .wsus__single_team_img {
-        height: 230px;
     }
 
     /* about page end */
@@ -159,18 +163,12 @@
         font-size: 26px;
     }
 
-    .wsus__404_text {
-        margin-top: 70px;
-        margin-bottom: 110px;
-    }
-
     /* 404 end */
 
 
     /* about page start */
     .wsus_bread_overlay {
-        background: #0B2C3DA6;
-        padding: 70px 0px 60px 0px;
+        padding: 140px 0px 60px 0px;
     }
 
     .wsus__breadcrumb h4 {
@@ -179,10 +177,6 @@
 
     .wsus__about_page .wsus__about_img {
         height: 730px;
-    }
-
-    .wsus__single_team_img {
-        height: 270px;
     }
 
     /* about page end */
@@ -340,11 +334,32 @@
     }
 
     /* dashboard order end */
-    /* dashboard end */
 
+    /* dashboard end */
     .details_nearest_location ul li span {
         width: 65%;
     }
+
+
+
+
+    .wsus__about_img .img {
+        width: 400px;
+        height: 490px;
+    }
+
+    .wsus__about_img .img2 {
+        width: 330px;
+        height: 210px;
+        bottom: 0;
+        right: 0;
+    }
+
+    .wsus__popular_property_text {
+        width: 65%;
+    }
+
+
 }
 
 
@@ -367,17 +382,20 @@
     #navbarSupportedContent {
         background: #fff;
         margin-top: 8px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid var(--colorPrimary);
     }
 
     .main_menu .navbar-nav .nav-item .nav-link {
-        line-height: 55px;
+        line-height: 50px;
         text-align: center;
-        border-bottom: 1px solid #eee;
+        color: var(--colorBlack);
     }
 
     .main_menu {
-        z-index: 2;
-        border-bottom: 1px solid #f02c2d;
+        border-bottom: 1px solid var(--colorWhite);
+        height: 65px;
     }
 
     .login_icon {
@@ -391,6 +409,11 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+        max-height: 250px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
     }
 
     .main_menu .dropdown-menu li a {
@@ -401,11 +424,6 @@
         height: 570px;
     }
 
-    .wsus__banner_text {
-        text-align: center;
-        width: 350px;
-    }
-
     .wsus__banner_text a {
         font-size: 25px;
     }
@@ -414,17 +432,12 @@
         height: 200px;
     }
 
-    .wsus__popular_properties_single {
-        height: 225px;
-    }
-
     .wsus__banner_search .nav-item {
         width: 33.33%;
     }
 
     .wsus__about_img {
-        height: 350px;
-        margin-bottom: 13px;
+        margin-bottom: 25px;
     }
 
     .wsus__blog_img {
@@ -483,18 +496,12 @@
         font-size: 26px;
     }
 
-    .wsus__404_text {
-        margin-top: 85px;
-        margin-bottom: 125px;
-    }
-
     /* 404 end */
 
 
     /* about page start */
     .wsus_bread_overlay {
-        background: #0B2C3DA6;
-        padding: 70px 0px 60px 0px;
+        padding: 135px 0px 60px 0px;
     }
 
     .wsus__breadcrumb h4 {
@@ -504,10 +511,6 @@
     .wsus__about_page .wsus__about_img {
         height: 350px;
         margin-bottom: 25px;
-    }
-
-    .wsus__single_team_img {
-        height: 270px;
     }
 
     /* about page end */
@@ -740,6 +743,89 @@
     .wsus__section_heading h2 {
         text-align: center !important;
     }
+
+    /* new css start */
+    .main_menu .navbar-brand {
+        width: 165px;
+    }
+
+    .main_menu .container {
+        padding: 8px 0px;
+    }
+
+    .main_menu .navbar-nav .nav-item:hover .nav-link,
+    .main_menu .navbar-nav .nav-item .nav-link.active {
+        color: var(--colorPrimary);
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_overlay {
+        padding: 115px 0px 100px 0px;
+    }
+
+    .wsus__banner_text form {
+        padding: 30px 30px 20px 30px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 32px;
+    }
+
+    .wsus__banner_text p {
+        max-width: 100%;
+    }
+
+    .wsus__serach_single {
+        margin-bottom: 10px;
+    }
+
+    .wsus__category_item span {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 20px;
+    }
+
+    .wsus__category_item {
+        padding: 30px 10px 25px 10px;
+    }
+
+    .wsus__category_item h4 {
+        font-size: 14px;
+    }
+
+    .wsus__about_img .img {
+        width: 380px;
+        height: 470px;
+    }
+
+    .wsus__about_img .img2 {
+        width: 320px;
+        height: 200px;
+    }
+
+    .wsus__about_img::after {
+        top: -20px;
+        left: -20px;
+    }
+
+    .wsus__popular_property_text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .wsus__about_text h2 {
+        text-align: left !important;
+    }
+
+    .wsus__about_text span {
+        padding: 30px;
+    }
+
+    /* new css end */
 }
 
 
@@ -766,17 +852,20 @@
     #navbarSupportedContent {
         background: #fff;
         margin-top: 8px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid var(--colorPrimary);
     }
 
     .main_menu .navbar-nav .nav-item .nav-link {
-        line-height: 55px;
+        line-height: 50px;
         text-align: center;
-        border-bottom: 1px solid #eee;
+        color: var(--colorBlack);
     }
 
     .main_menu {
-        z-index: 2;
-        border-bottom: 1px solid #f02c2d;
+        border-bottom: 1px solid var(--colorWhite);
+        height: 65px;
     }
 
     .login_icon {
@@ -790,6 +879,11 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+        max-height: 200px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
     }
 
     .main_menu .dropdown-menu li a {
@@ -812,13 +906,13 @@
         -o-transform: translateY(0);
     }
 
-    .wsus__banner_text {
+    /* .wsus__banner_text {
         padding: 10px;
         text-align: center;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-    }
+    } */
 
     .wsus__banner_text a {
         font-size: 25px;
@@ -884,18 +978,12 @@
         font-size: 26px;
     }
 
-    .wsus__404_text {
-        margin-top: 90px;
-        margin-bottom: 130px;
-    }
-
     /* 404 end */
 
 
     /* about page start */
     .wsus_bread_overlay {
-        background: #0B2C3DA6;
-        padding: 50px 0px 40px 0px;
+        padding: 125px 0px 40px 0px;
     }
 
     .wsus__breadcrumb h4 {
@@ -908,7 +996,8 @@
     }
 
     .wsus__single_team_img {
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
 
     /* about page end */
@@ -1280,7 +1369,104 @@
 
     .wsus__section_heading h2 {
         text-align: center !important;
+        font-size: 28px;
     }
+
+    /* new css start */
+    .main_menu .navbar-brand {
+        width: 165px;
+    }
+
+    .main_menu .container {
+        padding: 8px 0px;
+    }
+
+    .main_menu .navbar-nav .nav-item:hover .nav-link,
+    .main_menu .navbar-nav .nav-item .nav-link.active {
+        color: var(--colorPrimary);
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_overlay {
+        padding: 115px 0px 100px 0px;
+    }
+
+    .wsus__banner_text form {
+        padding: 30px 30px 20px 30px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 32px;
+    }
+
+    .wsus__banner_text p {
+        max-width: 100%;
+    }
+
+    .wsus__serach_single {
+        margin-bottom: 10px;
+    }
+
+    .wsus__category_item span {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 20px;
+    }
+
+    .wsus__category_item {
+        padding: 30px 10px 25px 10px;
+    }
+
+    .wsus__category_item h4 {
+        font-size: 14px;
+    }
+
+    .wsus__about_img .img {
+        width: 290px;
+        height: 335px;
+    }
+
+    .wsus__about_img .img2 {
+        width: 220px;
+        height: 150px;
+        right: -10px;
+        bottom: 30px;
+    }
+
+    .wsus__about_img::after {
+        top: -20px;
+        left: -20px;
+    }
+
+    .wsus__popular_property_text {
+        width: 69%;
+    }
+
+    .wsus__about_text h2 {
+        text-align: left !important;
+    }
+
+    .wsus__about_text ul li {
+        width: 100%;
+    }
+
+    .wsus__about_text span {
+        padding: 30px;
+    }
+
+    .wsus__single_property_img {
+        height: 300px;
+    }
+
+    .wsus__blog_img {
+        height: 300px;
+    }
+
+    /* new css end */
 }
 
 
@@ -1312,17 +1498,20 @@
     #navbarSupportedContent {
         background: #fff;
         margin-top: 8px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid var(--colorPrimary);
     }
 
     .main_menu .navbar-nav .nav-item .nav-link {
-        line-height: 55px;
+        line-height: 50px;
         text-align: center;
-        border-bottom: 1px solid #eee;
+        color: var(--colorBlack);
     }
 
     .main_menu {
-        z-index: 2;
-        border-bottom: 1px solid #f02c2d;
+        border-bottom: 1px solid var(--colorWhite);
+        height: 65px;
     }
 
     .login_icon {
@@ -1336,6 +1525,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+        max-height: 200px;
     }
 
     .main_menu .dropdown-menu li a {
@@ -1379,7 +1569,7 @@
     }
 
     .wsus__section_heading h2 {
-        font-size: 25px;
+        font-size: 22px;
         text-align: center !important;
     }
 
@@ -1393,10 +1583,6 @@
 
     .wsus__single_property_text .title {
         font-size: 16px;
-    }
-
-    .wsus__single_property_text {
-        padding: 30px 15px;
     }
 
     .wsus__single_property_footer .category {
@@ -1415,10 +1601,6 @@
         font-size: 12px;
         margin: 0px 3px;
         padding: 2px 7px;
-    }
-
-    .wsus__popular_properties_single {
-        height: 200px;
     }
 
     .wsus__blog_img {
@@ -1472,18 +1654,12 @@
         font-size: 26px;
     }
 
-    .wsus__404_text {
-        margin-top: 80px;
-        margin-bottom: 120px;
-    }
-
     /* 404 end */
 
 
     /* about page start */
     .wsus_bread_overlay {
-        background: #0B2C3DA6;
-        padding: 50px 0px 40px 0px;
+        padding: 125px 0px 40px 0px;
     }
 
     .wsus__breadcrumb h4 {
@@ -1979,4 +2155,104 @@
         border-radius: 5px;
         overflow: hidden;
     }
+
+    /* new css start */
+    .main_menu .navbar-brand {
+        width: 165px;
+    }
+
+    .main_menu .container {
+        padding: 8px 0px;
+    }
+
+    .main_menu .navbar-nav .nav-item:hover .nav-link,
+    .main_menu .navbar-nav .nav-item .nav-link.active {
+        color: var(--colorPrimary);
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_overlay {
+        padding: 135px 0px 70px 0px;
+    }
+
+    .wsus__banner_text form {
+        padding: 20px 20px 10px 20px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 32px;
+    }
+
+    .wsus__banner_text p {
+        max-width: 100%;
+    }
+
+    .wsus__serach_single {
+        margin-bottom: 10px;
+    }
+
+    .wsus__category_item span {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 20px;
+    }
+
+    .wsus__category_item {
+        padding: 30px 10px 25px 10px;
+    }
+
+    .wsus__category_item h4 {
+        font-size: 14px;
+    }
+
+    .wsus__about_img .img {
+        width: 260px;
+        height: 290px;
+    }
+
+    .wsus__about_img .img2 {
+        width: 220px;
+        height: 150px;
+        right: -10px;
+        bottom: 30px;
+    }
+
+    .wsus__about_img::after {
+        top: -5px;
+        left: -5px;
+    }
+
+    .wsus__popular_property_text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .wsus__single_testimonial .review_text {
+        padding: 25px;
+    }
+
+    .wsus__about_text h2 {
+        text-align: left !important;
+    }
+
+    .wsus__about_text ul li {
+        width: 100%;
+    }
+
+    .wsus__about_text span {
+        padding: 17px;
+    }
+
+    .wsus__banner_text .select2-container--default .select2-selection--single {
+        text-align: left;
+    }
+
+    /* new css end */
+
+
+
 }

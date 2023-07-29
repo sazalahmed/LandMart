@@ -1,6 +1,7 @@
 $(function () {
     "use strict";
 
+
     //=========MENU FIX JS=========   
     if ($('.main_menu').offset() != undefined) {
         var navoff = $('.main_menu').offset().top;
@@ -15,53 +16,6 @@ $(function () {
         });
     }
 
-    //*=======BANNER SLIDER====== 
-    $('.banner_slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: true,
-        arrows: false,
-
-        responsive: [
-            {
-                breakpoint: 1400,
-                settings: {
-                    dots: true,
-                    arrows: false,
-                }
-            },
-            {
-                breakpoint: 1200,
-                settings: {
-                    dots: true,
-                    arrows: false,
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    dots: true,
-                    arrows: false,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    dots: true,
-                    arrows: false,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    dots: true,
-                    arrows: false,
-                }
-            }
-        ]
-    });
 
     //*=======CATEGORY SLIDER====== 
     $('.category_slider').slick({
@@ -88,22 +42,19 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    dots: true,
-                    arrows: false,
+                    slidesToShow: 4,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    dots: true,
-                    arrows: false,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    dots: true,
-                    arrows: false,
+                    slidesToShow: 2,
                 }
             }
         ]
@@ -133,15 +84,13 @@ $(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    dots: true,
-                    arrows: false,
+                    slidesToShow: 1,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    dots: true,
-                    arrows: false,
+                    slidesToShow: 1,
                 }
             }
         ]
