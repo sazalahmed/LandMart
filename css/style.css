@@ -96,6 +96,7 @@ textarea:focus-visible {
 	font-size: 16px;
 	padding: 10px 30px;
 	font-weight: 500;
+	text-align: center;
 	border-radius: 30px;
 	transition: all linear .3s;
 	-webkit-transition: all linear .3s ease;
@@ -504,6 +505,7 @@ textarea:focus-visible {
 	font-weight: 600;
 	margin-top: 20px;
 	text-transform: capitalize;
+	text-align: center;
 }
 
 .wsus__category_item:hover {
@@ -1333,7 +1335,6 @@ footer {
 	border-radius: 50%;
 	color: var(--colorWhite);
 	line-height: 25px;
-	margin-right: 10px;
 	position: absolute;
 	top: 4px;
 	left: 0;
