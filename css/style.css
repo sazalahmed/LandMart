@@ -3256,7 +3256,7 @@ footer {
 .agent_det_heading h4 {
 	text-transform: capitalize;
 	font-size: 24px;
-	font-weight: 700;
+	font-weight: 600;
 	border-bottom: 1px solid #eee;
 	padding-bottom: 15px;
 }
@@ -3275,7 +3275,7 @@ footer {
 }
 
 .wsus__quick_contact {
-	padding: 25px;
+	padding: 30px;
 	border-radius: 10px;
 	background: #f5f7fb;
 }
@@ -3836,7 +3836,7 @@ footer {
 	display: block;
 	color: var(--colorWhite);
 	font-size: 40px;
-	font-weight: 900;
+	font-weight: 600;
 	margin-top: 7px;
 	text-align: center;
 }
@@ -3892,7 +3892,7 @@ footer {
 .wsus__dash_order .table tr th,
 .wsus__dash_order .table tr td,
 .wsus__dash_invoice .table tr td {
-	padding: 10px 0px;
+	padding: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -3916,7 +3916,6 @@ footer {
 .wsus__my_property .image a {
 	width: 100%;
 	height: 100%;
-	padding: 5px 10px;
 }
 
 .wsus__my_property .title {
@@ -3989,12 +3988,18 @@ footer {
 	font-size: 16px;
 	color: var(--colorBlack);
 	font-weight: 600;
+	text-align: center;
+}
+
+.wsus__my_property .table td p {
+	text-align: center;
 }
 
 .wsus__my_property .table td .rating {
 	color: #DEC949;
 	font-size: 14px;
 	margin-top: 5px;
+	text-align: center;
 }
 
 .wsus__my_property .table td .rating span {

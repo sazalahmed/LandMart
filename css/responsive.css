@@ -1,5 +1,9 @@
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
 
+    .main_menu .navbar-brand {
+        margin-left: 0;
+    }
+}
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
 
@@ -39,7 +43,6 @@
 
     /* home page end */
 
-
     /* 404 start */
     .wsus__404_text h2 {
         font-size: 130px;
@@ -51,14 +54,12 @@
 
     /* 404 end */
 
-
     /* about page start */
     .wsus__about_page .wsus__about_img {
         height: 685px;
     }
 
     /* about page end */
-
 
     .list_view .wsus__single_property_img {
         height: 226px;
@@ -71,13 +72,6 @@
     .wsus__blog_det_img {
         height: 430px;
     }
-
-    /* login start */
-    .wsus__login_link li a {
-        padding: 10px 25px 10px 55px;
-    }
-
-    /* login end */
 
     .wsus__single_details {
         padding: 25px !important;
@@ -131,8 +125,24 @@
     .wsus__deshboard_menu {
         height: 350px;
     }
-}
 
+    .main_menu .navbar-brand {
+        width: 170px;
+        margin-left: 0;
+    }
+
+    .wsus__blog_post ul li .text {
+        width: 61%;
+    }
+
+    .wsus__single_payment {
+        height: 90px;
+    }
+
+    .wsus__single_comment .wsus__comm_text {
+        width: 86%;
+    }
+}
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
@@ -153,7 +163,6 @@
 
     /* home page end */
 
-
     /* 404 start */
     .wsus__404_text h2 {
         font-size: 130px;
@@ -164,7 +173,6 @@
     }
 
     /* 404 end */
-
 
     /* about page start */
     .wsus_bread_overlay {
@@ -181,10 +189,9 @@
 
     /* about page end */
 
-
     /* agent profile start */
-    .wsus__main_agent_img {
-        height: 475px;
+    .wsus__main_agent_text {
+        width: 60%;
     }
 
     .wsus__agent_profile .wsus__pagination {
@@ -196,7 +203,6 @@
     }
 
     /* agent profile end */
-
 
     /* blog details start */
     .wsus__blog_det_img {
@@ -215,9 +221,8 @@
         width: 85px;
     }
 
-    .wsus__comm_img img {
-        width: 70px !important;
-        height: 70px !important;
+    .wsus__single_comment .wsus__comm_text {
+        width: 81%;
     }
 
     .wsus__comm_text {
@@ -227,27 +232,14 @@
 
     /* blog details send */
 
-
-    /* login start */
-    .wsus__login_link li a {
-        padding: 10px 25px 10px 55px;
-    }
-
-    /* login end */
-
-
     /* property details start */
     .wsus__single_details h4 {
         font-size: 25px;
     }
 
     .wsus__single_details .list li a {
-        font-size: 13px;
+        font-size: 14px;
         padding: 7px 12px;
-    }
-
-    .wsus__single_details {
-        padding: 25px !important;
     }
 
     .details_future table {
@@ -298,19 +290,7 @@
 
     /* property details end */
 
-
     /* dashboard start */
-    .wsus__dashboard {
-        padding: 65px 10px 20px 10px;
-    }
-
-    .wsus__dashboard_side_bar {
-        width: 30%;
-        background: #e6ecf9;
-        transform: scaleX(0);
-        transform-origin: left;
-    }
-
     .wsus__menu_icon {
         display: block;
         margin-top: 10px;
@@ -340,9 +320,6 @@
         width: 65%;
     }
 
-
-
-
     .wsus__about_img .img {
         width: 400px;
         height: 490px;
@@ -359,9 +336,72 @@
         width: 65%;
     }
 
+    .main_menu .navbar-brand {
+        width: 170px;
+        margin-left: 0;
+    }
 
+    .wsus__single_comment .text {
+        width: 83%;
+    }
+
+    .wsus__blog_post ul li .text {
+        width: 66%;
+    }
+
+    .wsus__single_payment {
+        height: 85px;
+    }
+
+    .wsus__single_price {
+        padding: 30px;
+    }
+
+    .wsus__single_price {
+        padding: 30px;
+    }
+
+    .pro_det_slider_item {
+        height: 370px;
+    }
+
+    .wsus__manage_single {
+        padding: 20px;
+    }
+
+    .wsus__manage_single p {
+        font-size: 14px;
+    }
+
+    .wsus__my_property .image {
+        width: 140px;
+    }
+
+    .wsus__my_property .title {
+        width: 260px;
+    }
+
+    .wsus__my_property .purpose {
+        width: 130px;
+    }
+
+    .wsus__my_property .status {
+        width: 110px;
+    }
+
+    .wsus__my_property .actions {
+        width: 140px;
+    }
+
+    .wsus__message_text {
+        width: 76%;
+    }
+
+    .wsus__dashboard .common_btn {
+        padding: 10px;
+        font-size: 12px;
+    }
 }
-
 
 @media (min-width: 768px) and (max-width: 991.99px) {
 
@@ -486,7 +526,6 @@
 
     /* home page end */
 
-
     /* 404 start */
     .wsus__404_text h2 {
         font-size: 100px;
@@ -497,7 +536,6 @@
     }
 
     /* 404 end */
-
 
     /* about page start */
     .wsus_bread_overlay {
@@ -515,16 +553,11 @@
 
     /* about page end */
 
-
     /* agent profile start */
-    .wsus__main_agent {
-        padding: 0;
-        box-shadow: none;
-        background: none;
-    }
-
     .wsus__main_agent_img {
-        height: 100%;
+        width: 230px;
+        height: 230px;
+        margin-right: 30px;
     }
 
     .agent_det_topbar h4,
@@ -533,7 +566,10 @@
     }
 
     .wsus__main_agent_text {
-        padding: 15px;
+        width: 55%;
+        height: 100%;
+        border-left: 1px solid #eee;
+        padding-left: 30px;
     }
 
     .wsus__agent_profile .wsus__pagination {
@@ -550,22 +586,24 @@
 
     /* agent profile end */
 
-
     /* blog details start */
     .wsus__blog_det_area {
         margin-bottom: 25px;
     }
 
     .wsus__blog_det_img {
-        height: 350px;
+        height: 400px;
     }
 
     .wsus__comm_text {
         width: 83%;
     }
 
-    /* blog details send */
+    .wsus__single_comment .text {
+        width: 85%;
+    }
 
+    /* blog details send */
 
     /* checkout start */
     .wsus__pay_method {
@@ -578,22 +616,12 @@
 
     /* checkout end */
 
-
     /* contact start */
     .wsus__con_map iframe {
         height: 300px;
     }
 
     /* contact end */
-
-
-    /* contact start */
-    .wsus__login_link li {
-        width: 100%;
-    }
-
-    /* contact end */
-
 
     /* property details start */
     .details_future table {
@@ -616,8 +644,12 @@
         padding-bottom: 25px !important;
     }
 
-    .wsus__single_details {
-        padding: 25px !important;
+    .wsus__single_comment .wsus__comm_text {
+        width: 84%;
+    }
+
+    .wsus__property_det_text {
+        margin-bottom: 30px;
     }
 
     .wsus__property_page .wsus__pagination {
@@ -638,17 +670,9 @@
 
     /* property details end */
 
-
     /* dashboard start */
-    .wsus__dashboard {
-        padding: 65px 10px 20px 10px;
-    }
-
-    .wsus__dashboard_side_bar {
-        width: 40%;
-        background: #e6ecf9;
-        transform: scaleX(0);
-        transform-origin: left;
+    .wsus__dashboard_main_content {
+        margin-top: 30px;
     }
 
     .wsus__menu_icon {
@@ -698,10 +722,9 @@
 
     /* dashboard order end */
 
-
     /* dashboard review start */
     .wsus__message_text {
-        width: 80%;
+        width: 79%;
     }
 
     .wsus__message_text span {
@@ -709,7 +732,6 @@
     }
 
     /* dashboard review end */
-
 
     /* dashboard property edit start */
     .wsus__edit_img {
@@ -730,8 +752,8 @@
     }
 
     /* dashboard property edit end */
-    /* dashboard end */
 
+    /* dashboard end */
     .details_nearest_location ul li span {
         width: 55%;
     }
@@ -825,9 +847,40 @@
         padding: 30px;
     }
 
+    .wsus__single_payment {
+        height: 85px;
+    }
+
+    .wsus__contact_question {
+        margin-top: 30px;
+    }
+
+    .wsus__single_price {
+        padding: 30px;
+    }
+
+    .wsus__my_property .image {
+        width: 140px;
+    }
+
+    .wsus__my_property .title {
+        width: 260px;
+    }
+
+    .wsus__my_property .purpose {
+        width: 130px;
+    }
+
+    .wsus__my_property .status {
+        width: 110px;
+    }
+
+    .wsus__my_property .actions {
+        width: 140px;
+    }
+
     /* new css end */
 }
-
 
 @media (min-width: 576px) and (max-width: 767.99px) {
 
@@ -906,14 +959,6 @@
         -o-transform: translateY(0);
     }
 
-    /* .wsus__banner_text {
-        padding: 10px;
-        text-align: center;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    } */
-
     .wsus__banner_text a {
         font-size: 25px;
     }
@@ -968,7 +1013,6 @@
 
     /* home page end */
 
-
     /* 404 start */
     .wsus__404_text h2 {
         font-size: 100px;
@@ -980,10 +1024,9 @@
 
     /* 404 end */
 
-
     /* about page start */
     .wsus_bread_overlay {
-        padding: 125px 0px 40px 0px;
+        padding: 120px 0px 40px 0px;
     }
 
     .wsus__breadcrumb h4 {
@@ -1002,22 +1045,20 @@
 
     /* about page end */
 
-
     /* agent profile start */
-    .wsus__main_agent {
-        padding: 0;
-        box-shadow: none;
-        background: none;
-    }
-
     .wsus__main_agent_img {
         margin-bottom: 25px;
+    }
+
+    .wsus__main_agent_text {
+        width: 100%;
+        border-left: 0;
+        padding-left: 0;
     }
 
     .agent_det_topbar h4,
     .wsus__quick_contact h4 {
         font-size: 18px;
-        margin: 12px auto;
     }
 
     .agent_det_topbar #pills-tab {
@@ -1033,7 +1074,6 @@
     }
 
     /* agent profile end */
-
 
     /* blog details start */
     .wsus__blog_det_area {
@@ -1067,20 +1107,17 @@
         font-size: 18px;
     }
 
-    .wsus__comm_img img {
-        width: 70px !important;
-        height: 70px !important;
-        margin-bottom: 15px;
-        margin-left: 0;
-    }
-
     .wsus__comm_text {
         width: 100%;
         padding-left: 0;
     }
 
-    /* blog details end */
+    .wsus__single_comment .wsus__comm_text {
+        width: 100%;
+        margin-top: 20px;
+    }
 
+    /* blog details end */
 
     /* checkout start */
     .wsus__pay_method {
@@ -1093,7 +1130,6 @@
 
     /* checkout end */
 
-
     /* contact start */
     .wsus__contact_single {
         margin-bottom: 25px;
@@ -1105,7 +1141,6 @@
 
     /* contact end */
 
-
     /* faq start */
     .wsus__faq #accordionFlushExample {
         padding: 0;
@@ -1113,7 +1148,6 @@
     }
 
     /* faq end */
-
 
     /* login start */
     .wsus__login_form {
@@ -1125,7 +1159,6 @@
     }
 
     /* login end */
-
 
     /* property details start */
     .wsus__single_details .list li a {
@@ -1189,17 +1222,9 @@
 
     /* property details end */
 
-
     /* dashboard start */
-    .wsus__dashboard {
-        padding: 65px 10px 20px 10px;
-    }
-
-    .wsus__dashboard_side_bar {
-        width: 50%;
-        background: #e6ecf9;
-        transform: scaleX(0);
-        transform-origin: left;
+    .wsus__dashboard_main_content {
+        margin-top: 30px;
     }
 
     .wsus__menu_icon {
@@ -1232,7 +1257,6 @@
 
     /* dashboard property start */
     .wsus__dashboard .common_btn {
-        padding: 7px 10px;
         font-size: 14px;
     }
 
@@ -1245,7 +1269,7 @@
     }
 
     .wsus__my_property .purpose {
-        width: 110px;
+        width: 130px;
     }
 
     .wsus__my_property .status {
@@ -1258,7 +1282,6 @@
 
     /* dashboard property end */
 
-
     /* dashboard profile start */
     .wsus__dash_info_text h3 {
         font-size: 20px;
@@ -1269,7 +1292,6 @@
     }
 
     /* dashboard profile end */
-
 
     /* dashboard order start */
     .wsus__dash_order .serial {
@@ -1294,7 +1316,6 @@
 
     /* dashboard order end */
 
-
     /* dashboard review start */
     .wsus__message_text {
         padding-left: 0;
@@ -1304,7 +1325,7 @@
     .wsus__message_img {
         width: 70px;
         height: 70px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .wsus__message_text span {
@@ -1312,7 +1333,6 @@
     }
 
     /* dashboard review end */
-
 
     /* dashboard property edit start */
     .wsus__edit_img {
@@ -1333,7 +1353,6 @@
 
     /* dashboard property edit end */
 
-
     /* dshboard invoice start */
     .invoice_right {
         text-align: left;
@@ -1347,13 +1366,11 @@
 
     /* dshboard invoice end*/
 
-
     .wsus__select_review {
         margin-bottom: 15px;
     }
 
     /* dashboard end */
-
     .wsus__banner .wsus__for_search {
         position: static;
         transform: translateX(0);
@@ -1466,9 +1483,32 @@
         height: 300px;
     }
 
+    .wsus__single_comment .text {
+        width: 80%;
+    }
+
+    .wsus_comment_input_area {
+        margin-bottom: 30px;
+    }
+
+    .wsus__blog_post ul li .text {
+        width: 82%;
+    }
+
+    .wsus__single_payment {
+        height: 85px;
+    }
+
+    .wsus__contact_question {
+        margin-top: 30px;
+    }
+
+    .wsus__property_det_text {
+        margin-bottom: 30px;
+    }
+
     /* new css end */
 }
-
 
 @media (max-width: 575.99px) {
 
@@ -1644,7 +1684,6 @@
 
     /* home page end */
 
-
     /* 404 start */
     .wsus__404_text h2 {
         font-size: 100px;
@@ -1656,10 +1695,9 @@
 
     /* 404 end */
 
-
     /* about page start */
     .wsus_bread_overlay {
-        padding: 125px 0px 40px 0px;
+        padding: 120px 0px 40px 0px;
     }
 
     .wsus__breadcrumb h4 {
@@ -1677,21 +1715,23 @@
 
     /* about page end */
 
-
     /* agent profile start */
-    .wsus__main_agent {
-        padding: 0;
-        box-shadow: none;
-        background: none;
+    .agent_det_heading h4 {
+        font-size: 22px;
     }
 
     .wsus__main_agent_img {
-        height: 300px;
-        margin-bottom: 25px;
+        width: 200px;
+        height: 200px;
+        margin-right: 0;
     }
 
     .wsus__main_agent_text {
-        padding: 15px;
+        width: 100%;
+        height: 100%;
+        border-left: 0;
+        padding-left: 0;
+        margin-top: 20px;
     }
 
     .wsus__pagination .page-link {
@@ -1708,7 +1748,6 @@
     .agent_det_topbar h4,
     .wsus__quick_contact h4 {
         font-size: 14px;
-        margin: 12px auto;
     }
 
     .agent_det_topbar #pills-tab {
@@ -1720,7 +1759,6 @@
     }
 
     /* agent profile end */
-
 
     /* blog details start */
     .wsus__blog_det_area {
@@ -1771,11 +1809,9 @@
         font-size: 18px;
     }
 
-    .wsus__comm_img img {
-        width: 70px !important;
-        height: 70px !important;
-        margin-bottom: 15px;
-        margin-left: 0;
+    .wsus__single_comment .wsus__comm_text {
+        width: 100%;
+        margin-top: 15px;
     }
 
     .wsus__comm_text {
@@ -1784,7 +1820,6 @@
     }
 
     /* blog details end */
-
 
     /* checkout start */
     .wsus__pay_method {
@@ -1817,7 +1852,6 @@
 
     /* contact end */
 
-
     /* faq start */
     .wsus__faq #accordionFlushExample {
         padding: 0;
@@ -1825,7 +1859,6 @@
     }
 
     /* faq end */
-
 
     /* login start */
     .wsus__login_link li a span {
@@ -1844,7 +1877,6 @@
     }
 
     /* login end */
-
 
     /* property details start */
     .wsus__single_details {
@@ -1900,6 +1932,7 @@
     .wsus__single_det_top .sale,
     .wsus__single_det_top .rent {
         font-size: 14px;
+        margin-bottom: 10px;
     }
 
     .wsus__single_det_top .tk {
@@ -1936,17 +1969,9 @@
 
     /* property details end */
 
-
     /* dashboard start */
-    .wsus__dashboard {
-        padding: 55px 0px 10px 0px;
-    }
-
-    .wsus__dashboard_side_bar {
-        width: 100%;
-        background: #e6ecf9;
-        transform: scaleX(0);
-        transform-origin: left;
+    .wsus__dashboard_main_content {
+        margin-top: 30px;
     }
 
     .wsus__menu_icon {
@@ -1981,7 +2006,6 @@
         font-size: 20px;
     }
 
-
     /* dashboard property start */
     .wsus__dashboard .common_btn {
         padding: 7px 10px;
@@ -1997,7 +2021,7 @@
     }
 
     .wsus__my_property .purpose {
-        width: 110px;
+        width: 130px;
     }
 
     .wsus__my_property .status {
@@ -2009,7 +2033,6 @@
     }
 
     /* dashboard property end */
-
 
     /* dashboard profile start */
     .wsus__dash_info_text {
@@ -2025,7 +2048,6 @@
     }
 
     /* dashboard profile end */
-
 
     /* dashboard order start */
     .wsus__dash_order .serial {
@@ -2050,7 +2072,6 @@
 
     /* dashboard order end */
 
-
     /* dashboard review start */
     .wsus__message_text {
         width: 100%;
@@ -2060,7 +2081,8 @@
     .wsus__message_img {
         width: 70px;
         height: 70px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
+        margin-left: 5px;
     }
 
     .wsus__message_icon {
@@ -2084,7 +2106,6 @@
     }
 
     /* dashboard review end */
-
 
     /* dashboard property edit start */
     .wsus__edit_img {
@@ -2130,11 +2151,13 @@
         margin: 1px 5px;
     }
 
+    .details_review .wsus__select_review ul li,
     .details_review .wsus__select_review ul li span {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     /* dshboard review end*/
+
     /* dashboard end */
 
     .wsus__banner .wsus__for_search {
@@ -2251,8 +2274,56 @@
         text-align: left;
     }
 
+    .wsus__blog_details_header span {
+        display: block;
+        width: 100%;
+        border: 0;
+        margin-bottom: 10px;
+    }
+
+    .wsus__comment_area {
+        padding: 20px;
+    }
+
+    .wsus__single_comment .text {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .wsus_comment_input_area {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .wsus__blog_post ul li .text {
+        width: 66%;
+    }
+
+    .wsus__single_comment h4 {
+        font-size: 16px;
+    }
+
+    .wsus__single_payment {
+        height: 70px;
+    }
+
+    .wsus__contact_question {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .wsus__login_link li {
+        width: 100%;
+    }
+
+    .wsus__single_price {
+        padding: 30px;
+    }
+
+    .wsus__property_det_text {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
     /* new css end */
-
-
-
 }
