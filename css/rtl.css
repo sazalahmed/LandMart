@@ -70,7 +70,7 @@
 }
 
 .wsus__about .wsus__section_heading h2 {
-	text-align: right;
+	text-align: right !important;
 }
 
 .wsus__single_property_text ul li i {
@@ -266,17 +266,11 @@
 }
 
 .wsus__comm_img {
-	float: right;
-}
-
-.wsus__comm_text {
-	padding-left: 0;
-	padding-right: 20px;
+	margin-right: 0 !important;
+	margin-left: 20px;
 }
 
 /* blog details end */
-
-
 .wsus__faq .accordion-button::after {
 	margin-left: 0;
 	margin-right: auto;
@@ -648,6 +642,22 @@
 	left: 30px;
 }
 
+
+.main_menu .navbar-brand {
+	margin-left: 0;
+	margin-right: 12px;
+}
+
+.navbar-toggler {
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+
+
+
+
+
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
 
@@ -666,6 +676,14 @@
 	.wsus__close_icon {
 		right: auto;
 		left: 10px;
+	}
+
+	.wsus__about_img .img2 {
+		left: 0;
+	}
+
+	.wsus__edit_img {
+		height: 200px !important;
 	}
 }
 
@@ -715,11 +733,6 @@
 		padding: 20px;
 	}
 
-	.wsus__banner_text {
-		left: 50%;
-		right: auto;
-	}
-
 	.wsus__comm_text {
 		padding-right: 0;
 	}
@@ -740,6 +753,11 @@
 	.invoice_left h4,
 	.invoice_left p {
 		text-align: right !important;
+	}
+
+	.wsus__main_agent_text {
+		padding-right: 0;
+		border-right: 0;
 	}
 }
 
@@ -790,4 +808,32 @@
 	.invoice_left p {
 		text-align: right !important;
 	}
+
+
+
+
+
+
+
+
+	.wsus__about_img::after {
+		left: auto;
+		right: -5px;
+	}
+
+	.wsus__about_img .img2 {
+		left: -10px;
+	}
+
+	.wsus__main_agent_text {
+		padding-right: 0;
+		border-right: 0;
+	}
+
+	.wsus__blog_details_header span {
+		border-left: 0;
+	}
+
+
+
 }
